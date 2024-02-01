@@ -13,6 +13,7 @@ a{
 }
 .navbar img{
     height: 16vh;
+    
 }
 .navbar-container{
     background-color: #231709;
@@ -72,14 +73,18 @@ body{
     min-height: 100vh;
     max-height: 200dvh;
 }
+.navbar{
+    height: 38vh;
+}
 .navbar img {
+    margin-top: 6vh;
     height: 28vh;
 }
 
 .navbar-container{
     float :inline-end;
     width: 80%;
-    margin-top: 30vh;
+    margin-top: 20vh;
     margin-right: 1.2vh;
 }
 .navbar-container ul li {
@@ -116,6 +121,6 @@ body{
 
 }
 .text-content p:nth-child(2){
-    margin-bottom: 9em;
+    margin-bottom: 15em;
 }
 } 
